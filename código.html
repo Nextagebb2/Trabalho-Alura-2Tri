@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards Estudos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="titulo">
+            <h2>Flashcards Estudos</h2>
+        </div>
+        <div class="mudar">
+            <h2>Trabalho Alura</h2>
+        </div>
+        <p>Este é um projeto desenvolvido pensando numa ferramenta de
+        estudos. O intuito é elaborar e organizar um mecanismo de notas,
+         ou uma ferramenta que organize um pequeno resumo dos temas</p>
+        <p>O grid de cards está organizado em uma matriz de 3x3,
+            podendo ser expandido ou reduzido a matrizes de tamanhos menores.
+        </p>
+    </header>
+    <main>
+        <section id="container">
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo cartao-conteudo1">
+                        <div class="cartao1">
+                         <div class="card-front">
+                                <div class="design-conteudo">
+                                    <h3>Geografia</h3>
+                                </div>
+                                <div class="cartao-conteudo-pergunta">Qual é a capital da França?</div>
+                                <div class="cartao-conteudo-resposta">Resposta</div>
+                            </div>
+                            <div class="card-back">
+                                <h3>Resposta</h3>
+                                <p>A capital da frança é Paris</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo cartao-conteudo2">
+                        <div class="cartao2">
+                            <div class="card-front">
+                                <div class="design-conteudo">
+                                    <h3>Geografia</h3>
+                                </div>
+                                <div class="cartao-conteudo-pergunta">Qual a capital da Croácia</div>
+                                <div class="cartao-conteudo-resposta">Resposta</div>
+                            </div>
+                            <div class="card-back">
+                                <h3>Resposta</h3>
+                                <p>A capital da Croácia é Zagrebe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo cartao-conteudo3">
+                        <div class="cartao3">
+                            <div class="card-front">
+                                <div class="design-conteudo">
+                                    <h3>Geografia</h3>
+                                </div>
+                                <div class="cartao-conteudo-pergunta">Qual é a capital do Acre</div>
+                                <div class="cartao-conteudo-resposta">Resposta</div>
+                            </div>
+                            <div class="card-back">
+                                <h3>Resposta</h3>
+                                <p>A capital do Acre é Rio Branco</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo cartao-conteudo4">
+                        <div class="cartao4">
+                         <div class="card-front">
+                                <div class="design-conteudo">
+                                    <h3>Astronomia</h3>
+                                </div>
+                                <div class="cartao-conteudo-pergunta">Qual é o maior planeta do Sistema Solar? </div>
+                                <div class="cartao-conteudo-resposta">Resposta</div>
+                            </div>
+                            <div class="card-back">
+                                <h3>Resposta</h3>
+                                <p>Júpiter</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo cartao-conteudo1">
+                        <div class="cartao5">
+                            <div class="card-front">
+                                <div class="design-conteudo">
+                                    <h3>cores</h3>
+                                </div>
+                                <div class="cartao-conteudo-pergunta">Que cor se forma ao misturar azul com amarelo?</div>
+                                <div class="cartao-conteudo-resposta">Resposta</div>
+                            </div>
+                            <div class="card-back">
+                                <h3>Resposta</h3>
+                                <p>Verde</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo cartao-conteudo6">
+                        <div class="cartao6">
+                            <div class="card-front">
+                                <div class="design-conteudo">
+                                    <h3>Futebol</h3>
+                                </div>
+                                <div class="cartao-conteudo-pergunta">Qual país é o maior campeão da Copa do Mundo?</div>
+                                <div class="cartao-conteudo-resposta">Resposta</div>
+                            </div>
+                            <div class="card-back">
+                                <h3>Resposta</h3>
+                                <p>Brasil</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo cartao-conteudo7">
+                        <div class="cartao7">
+                            <div class="card-front">
+                                <div class="design-conteudo">
+                                    <h3>Futebol</h3>
+                                </div>
+                                <div class="cartao-conteudo-pergunta">Quantas Copas do Mundo a seleção da Alemanha já venceu?</div>
+                                <div class="cartao-conteudo-resposta">Resposta</div>
+                            </div>
+                            <div class="card-back">
+                                <h3>Resposta</h3>
+                                <p>4 Copas (1954, 1974, 1990 e 2014).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="Cartao-conteudo cartao-conteudo8">
+                        <div class="cartao8">
+                         <div class="card-front">
+                                <div class="design-conteudo">
+                                    <h3>Futebol</h3>
+                                </div>
+                                <div class="cartao-conteudo-pergunta">Qual foi o placar da final da Copa do Mundo de 2018 entre França e Croácia?</div>
+                                <div class="cartao-conteudo-resposta">Resposta</div>
+                            </div>
+                            <div class="card-back">
+                                <h3>Resposta</h3>
+                                <p>França 4 x 2 Croácia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="cartao" onclick="this.classList.toggle('flipped')">
+                <div class="geral">
+                    <div class="cartao-conteudo cartao-conteudo9">
+                        <div class="cartao9">
+                         <div class="card-front">
+                                <div class="design-conteudo">
+                                    <h3>Futebol</h3>
+                                </div>
+                                <div class="cartao-conteudo-pergunta">Qual clube europeu tem mais títulos da Liga dos Campeões da UEFA?</div>
+                                <div class="cartao-conteudo-resposta">Resposta</div>
+                            </div>
+                            <div class="card-back">
+                                <h3>Resposta</h3>
+                                <p>Real Madrid (15 títulos, até 2024).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-text">
+            <a class="texto-rodape">Projeto desenvolvido pela Alura. Melhorado e aplicado por José Miguel</a>
+        </div>
+        <div class="mark">
+            <a href="https://github.com/Nextagebb2">2025 | @Nextagebb2</a>
+        </div>
+    </footer>
+</body>
+</html>
